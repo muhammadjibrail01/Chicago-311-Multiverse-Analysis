@@ -1,0 +1,218 @@
+{
+ "n_specs": 1080,
+ "n_records": 5,
+ "n_windows": 6,
+ "n_controls": 3,
+ "n_outcomes": 4,
+ "n_measures": 3,
+ "hardship_specs": 360,
+ "hardship_std_min": -0.10952500904624626,
+ "hardship_std_max": 0.6082719510339086,
+ "hardship_std_median": 0.025261628885248286,
+ "hardship_share_positive": 0.9138888888888889,
+ "hardship_share_sig_ca": 0.775,
+ "hardship_share_sig_hc1": 0.9527777777777777,
+ "hardship_share_pos_sig": 0.7277777777777777,
+ "all_share_positive": 0.9055555555555556,
+ "all_share_sig_ca": 0.7648148148148148,
+ "low_inc_share_pos_sig": 0.7083333333333334,
+ "pct_black_share_pos_sig": 0.7305555555555555,
+ "r2_choices_hardship": 0.29776445686034014,
+ "choice_r2_by_dim": {
+  "records": 0.10224420034705506,
+  "window": 0.008813479862259221,
+  "controls": 0.09916894021391287,
+  "outcome": 0.0875378364371131
+ },
+ "choice_means_hardship": {
+  "records": {
+   "+ all three": {
+    "mean": 0.07181927791589311,
+    "min": -0.003517097202628363,
+    "max": 0.5453360516885243,
+    "n": 72
+   },
+   "+ city-generated": {
+    "mean": 0.01641909947459017,
+    "min": -0.10952500904624626,
+    "max": 0.06432924856157113,
+    "n": 72
+   },
+   "+ duplicates": {
+    "mean": 0.01641962423522676,
+    "min": -0.04701595237948514,
+    "max": 0.04537501350400977,
+    "n": 72
+   },
+   "+ information-only calls": {
+    "mean": 0.08768290263528439,
+    "min": 0.001528482069217572,
+    "max": 0.6082719510339086,
+    "n": 72
+   },
+   "Resident, non-duplicate (baseline)": {
+    "mean": 0.02207071800208595,
+    "min": -0.0496373059009712,
+    "max": 0.059304384673903116,
+    "n": 72
+   }
+  },
+  "window": {
+   "2019 only": {
+    "mean": 0.023544302672804253,
+    "min": -0.10952500904624626,
+    "max": 0.5257462563450824,
+    "n": 60
+   },
+   "2019-2024": {
+    "mean": 0.04478031447385845,
+    "min": -0.029098570681236335,
+    "max": 0.5829195890419654,
+    "n": 60
+   },
+   "2022-2024": {
+    "mean": 0.05200173482650528,
+    "min": -0.02315865804758412,
+    "max": 0.5785949559954796,
+    "n": 60
+   },
+   "Excluding 2020": {
+    "mean": 0.045839062702989805,
+    "min": -0.02833409389261254,
+    "max": 0.5673310726522725,
+    "n": 60
+   },
+   "Summer (Jun-Aug)": {
+    "mean": 0.04573054196833948,
+    "min": -0.04394358062499165,
+    "max": 0.5453302121570739,
+    "n": 60
+   },
+   "Winter (Dec-Feb)": {
+    "mean": 0.04539799007119919,
+    "min": -0.023519113887005724,
+    "max": 0.6082719510339086,
+    "n": 60
+   }
+  },
+  "controls": {
+   "full": {
+    "mean": 0.024481971640499936,
+    "min": -0.002111835817404561,
+    "max": 0.05836592817512506,
+    "n": 120
+   },
+   "none": {
+    "mean": 0.08535861471201825,
+    "min": -0.10952500904624626,
+    "max": 0.6082719510339086,
+    "n": 120
+   },
+   "ty": {
+    "mean": 0.01880638700533004,
+    "min": -0.003517097202628363,
+    "max": 0.05303642520470385,
+    "n": 120
+   }
+  },
+  "outcome": {
+   "days": {
+    "mean": 0.011910097929244204,
+    "min": -0.06248725978407049,
+    "max": 0.1455466499048351,
+    "n": 90
+   },
+   "log": {
+    "mean": 0.08829394904515687,
+    "min": -0.10952500904624626,
+    "max": 0.6082719510339086,
+    "n": 90
+   },
+   "rank": {
+    "mean": 0.02939916512387959,
+    "min": -0.0013782452902861358,
+    "max": 0.05836592817512506,
+    "n": 90
+   },
+   "slower": {
+    "mean": 0.04192608571218363,
+    "min": 0.0005899109621152011,
+    "max": 0.16589694192256435,
+    "n": 90
+   }
+  }
+ },
+ "nonsig_hardship": [
+  [
+   "Resident, non-duplicate (baseline)",
+   "2019 only",
+   "none",
+   "log",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "2019 only",
+   "none",
+   "rank",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "2019 only",
+   "none",
+   "slower",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "2019 only",
+   "ty",
+   "log",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "2019 only",
+   "ty",
+   "rank",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "2019 only",
+   "ty",
+   "slower",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "2019 only",
+   "full",
+   "slower",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "2022-2024",
+   "none",
+   "days",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "Winter (Dec-Feb)",
+   "ty",
+   "days",
+   1
+  ],
+  [
+   "Resident, non-duplicate (baseline)",
+   "Winter (Dec-Feb)",
+   "full",
+   "days",
+   1
+  ]
+ ],
+ "hardship_specs_nonpositive": 31
+}

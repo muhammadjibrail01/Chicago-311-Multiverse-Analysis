@@ -1,0 +1,6 @@
+records,2019 only,2019-2024,2022-2024,Excluding 2020,Summer (Jun-Aug),Winter (Dec-Feb)
++ all three,0.012,0.02,0.026,0.022,0.024,0.02
++ city-generated,0.019,0.03,0.041,0.033,0.035,0.027
++ duplicates,0.017,0.031,0.037,0.033,0.039,0.023
++ information-only calls,0.01,0.024,0.03,0.025,0.032,0.018
+"Resident, non-duplicate (baseline)",0.019,0.035,0.043,0.037,0.046,0.025

@@ -1,0 +1,6 @@
+records,none,ty,full
++ all three,0.484,0.014,0.02
++ city-generated,0.005,0.02,0.03
++ duplicates,0.027,0.023,0.031
++ information-only calls,0.583,0.02,0.024
+"Resident, non-duplicate (baseline)",0.04,0.027,0.035
